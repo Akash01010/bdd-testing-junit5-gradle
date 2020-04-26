@@ -19,7 +19,7 @@ dependencies {
     }
     testImplementation 'io.cucumber:cucumber-java:5.2.0'
     //	http://mkolisnyk.github.io/cucumber-reports/
-    compile('com.github.mkolisnyk:cucumber-runner:1.3.4')
+//    compile('com.github.mkolisnyk:cucumber-runner:1.3.4')
 }
 
 
@@ -35,7 +35,11 @@ task cucumber() {
         javaexec {
             main = "io.cucumber.core.cli.Main"
             classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
-            args = ['--plugin', 'pretty', '--plugin', 'html:target/cucumber', '--plugin', 'json:target/cucumber/cucumber.json', '--plugin', 'junit:target/cucumber.xml', '--plugin', 'rerun:target/rerun.txt', '--glue', 'stepdefs', 'src/test/resources']
+            args = ['--plugin', 'pretty',
+                    '--plugin', 'html:target/cucumber',
+                    '--plugin', 'json:target/cucumber/cucumber.json',
+                    '--plugin', 'junit:target/cucumber.xml',
+                    '--glue', 'stepdefs', 'src/test/resources']
         }
     }
 }

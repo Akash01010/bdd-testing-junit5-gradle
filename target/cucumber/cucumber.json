@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-04-26T08:28:05.623Z",
+        "start_timestamp": "2020-04-26T10:47:55.454Z",
         "line": 2,
         "name": "Play FizzBuzz to get Fizz",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2000000,
+              "duration": 5000000,
               "status": "passed"
             },
             "line": 3,
@@ -43,7 +43,7 @@
           },
           {
             "result": {
-              "duration": 6000000,
+              "duration": 5000000,
               "status": "passed"
             },
             "line": 5,
@@ -62,7 +62,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-04-26T08:28:05.704Z",
+        "start_timestamp": "2020-04-26T10:47:55.538Z",
         "line": 6,
         "name": "Play FizzBuzz to get Buzz",
         "description": "",
@@ -121,7 +121,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-04-26T08:28:05.712Z",
+        "start_timestamp": "2020-04-26T10:47:55.544Z",
         "line": 10,
         "name": "Play FizzBuzz to get FizzBuzz",
         "description": "",
@@ -143,7 +143,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 12,
@@ -161,7 +160,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 13,
@@ -191,7 +189,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-04-26T08:28:05.718Z",
+        "start_timestamp": "2020-04-26T10:47:55.551Z",
         "line": 11,
         "name": "Today is or is not Friday",
         "description": "",
@@ -201,7 +199,6 @@
         "steps": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 5,
@@ -219,7 +216,7 @@
           },
           {
             "result": {
-              "duration": 1000000,
+              "duration": 2000000,
               "status": "passed"
             },
             "line": 6,
@@ -231,7 +228,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 7,
@@ -250,7 +246,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-04-26T08:28:05.735Z",
+        "start_timestamp": "2020-04-26T10:47:55.566Z",
         "line": 12,
         "name": "Today is or is not Friday",
         "description": "",
@@ -260,6 +256,7 @@
         "steps": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 5,
@@ -277,7 +274,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 6,
@@ -308,7 +304,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-04-26T08:28:05.740Z",
+        "start_timestamp": "2020-04-26T10:47:55.572Z",
         "line": 13,
         "name": "Today is or is not Friday",
         "description": "",
@@ -348,7 +344,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 7,
