@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="0.603">
+<testcase classname="Fizz Buzz Game" name="Play FizzBuzz to get Fizz" time="0.074">
+<system-out><![CDATA[Given A FizzBuzz game.......................................................passed
+When user enters number 3...................................................passed
+Then output "Fizz" to user..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Fizz Buzz Game" name="Play FizzBuzz to get Buzz" time="0.005">
+<system-out><![CDATA[Given A FizzBuzz game.......................................................passed
+When user enters number 5...................................................passed
+Then output "Buzz" to user..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Fizz Buzz Game" name="Play FizzBuzz to get FizzBuzz" time="0.004">
+<system-out><![CDATA[Given A FizzBuzz game.......................................................passed
+When user enters number 15..................................................passed
+Then output "FizzBuzz" to user..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Is it Friday yet?" name="Today is or is not Friday" time="0.015">
+<system-out><![CDATA[Given today is "Friday".....................................................passed
+When I ask whether it's Friday yet..........................................passed
+Then I should be told "Yes".................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Is it Friday yet?" name="Today is or is not Friday 2" time="0.003">
+<system-out><![CDATA[Given today is "Sunday".....................................................passed
+When I ask whether it's Friday yet..........................................passed
+Then I should be told "Nope"................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Is it Friday yet?" name="Today is or is not Friday 3" time="0.005">
+<system-out><![CDATA[Given today is "anything else!".............................................passed
+When I ask whether it's Friday yet..........................................passed
+Then I should be told "Nope"................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

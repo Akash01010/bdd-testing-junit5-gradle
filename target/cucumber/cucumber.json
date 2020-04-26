@@ -1,0 +1,377 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-26T08:28:05.623Z",
+        "line": 2,
+        "name": "Play FizzBuzz to get Fizz",
+        "description": "",
+        "id": "fizz-buzz-game;play-fizzbuzz-to-get-fizz",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "A FizzBuzz game",
+            "match": {
+              "location": "stepdefs.FizzBuzzStepdefs.a_FizzBuzz_game()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enters number 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefs.FizzBuzzStepdefs.userEntersNumber(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "output \"Fizz\" to user",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fizz\"",
+                  "offset": 7
+                }
+              ],
+              "location": "stepdefs.FizzBuzzStepdefs.outputToUser(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-26T08:28:05.704Z",
+        "line": 6,
+        "name": "Play FizzBuzz to get Buzz",
+        "description": "",
+        "id": "fizz-buzz-game;play-fizzbuzz-to-get-buzz",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "A FizzBuzz game",
+            "match": {
+              "location": "stepdefs.FizzBuzzStepdefs.a_FizzBuzz_game()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters number 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefs.FizzBuzzStepdefs.userEntersNumber(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "output \"Buzz\" to user",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Buzz\"",
+                  "offset": 7
+                }
+              ],
+              "location": "stepdefs.FizzBuzzStepdefs.outputToUser(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-26T08:28:05.712Z",
+        "line": 10,
+        "name": "Play FizzBuzz to get FizzBuzz",
+        "description": "",
+        "id": "fizz-buzz-game;play-fizzbuzz-to-get-fizzbuzz",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "A FizzBuzz game",
+            "match": {
+              "location": "stepdefs.FizzBuzzStepdefs.a_FizzBuzz_game()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters number 15",
+            "match": {
+              "arguments": [
+                {
+                  "val": "15",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefs.FizzBuzzStepdefs.userEntersNumber(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "output \"FizzBuzz\" to user",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FizzBuzz\"",
+                  "offset": 7
+                }
+              ],
+              "location": "stepdefs.FizzBuzzStepdefs.outputToUser(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Fizz Buzz Game",
+    "description": "",
+    "id": "fizz-buzz-game",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/FizzBuzz.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-26T08:28:05.718Z",
+        "line": 11,
+        "name": "Today is or is not Friday",
+        "description": "",
+        "id": "is-it-friday-yet?;today-is-or-is-not-friday;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "today is \"Friday\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Friday\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepdefs.FridayStepdefs.today_is(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I ask whether it\u0027s Friday yet",
+            "match": {
+              "location": "stepdefs.FridayStepdefs.i_ask_whether_it_s_Friday_yet()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should be told \"Yes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Yes\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefs.FridayStepdefs.i_should_be_told(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-26T08:28:05.735Z",
+        "line": 12,
+        "name": "Today is or is not Friday",
+        "description": "",
+        "id": "is-it-friday-yet?;today-is-or-is-not-friday;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "today is \"Sunday\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sunday\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepdefs.FridayStepdefs.today_is(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I ask whether it\u0027s Friday yet",
+            "match": {
+              "location": "stepdefs.FridayStepdefs.i_ask_whether_it_s_Friday_yet()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should be told \"Nope\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nope\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefs.FridayStepdefs.i_should_be_told(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-26T08:28:05.740Z",
+        "line": 13,
+        "name": "Today is or is not Friday",
+        "description": "",
+        "id": "is-it-friday-yet?;today-is-or-is-not-friday;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "today is \"anything else!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"anything else!\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepdefs.FridayStepdefs.today_is(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I ask whether it\u0027s Friday yet",
+            "match": {
+              "location": "stepdefs.FridayStepdefs.i_ask_whether_it_s_Friday_yet()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should be told \"Nope\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nope\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefs.FridayStepdefs.i_should_be_told(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Is it Friday yet?",
+    "description": "  Everybody wants to know when it\u0027s Friday",
+    "id": "is-it-friday-yet?",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/friday.feature",
+    "tags": []
+  }
+]
